@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IntrestCal</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+    <header>
+<h1>Intrest Caluclater</h1>
+    </header>
+    
+    <div>
+        <label for="">Princ :</label>
+<input type="number" placeholder="Principle amount" id="principle" required>
+<br>
+<label for="">Time :</label>
+<input type="number" placeholder="Time Period" id="time" required>
+<br>
+<label for="">Rate :</label>
+<input type="number" placeholder="Rate of Intrest" id="rate" required>
+<br>
+<button  onclick="caluclate()">Caluclate</button>
+
+<p>Simple Intrest : <span id="sim"></span> </p>
+<p>Compound Intrest: <span id="com"></span></p>
+
+
+
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
